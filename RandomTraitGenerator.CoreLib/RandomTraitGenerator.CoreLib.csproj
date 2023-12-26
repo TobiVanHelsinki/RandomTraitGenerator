@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+	<IsTrimmable>true</IsTrimmable>
+  </PropertyGroup>
+
+
+	
+	<ItemGroup>
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="TLIB" Version="3.3.9" />
+  </ItemGroup>
+
+  	</Project>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TraitList>
+  <Trait Name="Origin">
+    <Value P="1" Name="European"/>
+    <Value P="1" Name="Asian"/>
+    <Value P="1" Name="Arabic"/>
+    <Value P="1" Name="Hispanic"/>
+    <Value P="1" Name="Mixed"/>
+    <Value P="1" Name="Latino"/>
+    <Value P="1" Name="Black"/>
+    <Value P="1" Name="African"/>
+    <Value P="1" Name="Indian"/>
+    <Value P="1" Name="Indian"/>
+  </Trait>
+  <Trait Name="Race">
+    <Value P="1" Name="Human">
+      <Trait Name="Metavariant">
+        <Value P="1" Name="None"/>
+        <Value P="0.1" Name="Nartaki"/>
+      </Trait>
+    </Value>
+    <Value P="0.8" Name="Elf">
+      <Trait Name="Metavariant">
+        <Value P="1" Name="None"/>
+        <Value P="0.1" Name="Dryad"/>
+        <Value P="0.1" Name="Nocturne"/>
+        <Value P="0.1" Name="Wakyambi"/>
+        <Value P="0.1" Name="Xapiri Thëpë"/>
+      </Trait>
+    </Value>
+    <Value P="0.4" Name="Dwarf">
+      <Trait Name="Metavariant">
+        <Value P="1" Name="None"/>
+        <Value P="0.1" Name="Gnome"/>
+        <Value P="0.1" Name="Hanuman"/>
+        <Value P="0.1" Name="Koborokuru"/>
+        <Value P="0.1" Name="Menehune"/>
+      </Trait>
+    </Value>
+    <Value P="0.4" Name="Troll">
+      <Trait Name="Metavariant">
+        <Value P="1" Name="None"/>
+        <Value P="0.1" Name="Fomori"/>
+        <Value P="0.1" Name="Minotaur"/>
+        <Value P="0.1" Name="Giant"/>
+        <Value P="0.1" Name="Cyclops"/>
+      </Trait>
+    </Value>
+    <Value P="0.4" Name="Orc">
+      <Trait Name="Metavariant">
+        <Value P="1" Name="None"/>
+        <Value P="0.1" Name="Hobgoblin"/>
+        <Value P="0.1" Name="Ogre"/>
+        <Value P="0.1" Name="Oni"/>
+        <Value P="0.1" Name="Satyr"/>
+      </Trait>
+    </Value>
+    <Value P="0.2" Name="Other">
+      <Trait Name="Metasapiente">
+        <Value P="0.1" Name="Naga"/>
+        <Value P="0.1" Name="Pixie"/>
+        <Value P="0.1" Name="Sasquatch"/>
+        <Value P="0.1" Name="Centaur"/>
+        <Value P="0.1" Name="Shapeshifter"/>
+        <Value P="0.1" Name="Transformed"/>
+      </Trait>
+    </Value>
+  </Trait>
+  <Trait Name="Racial Strength">
+    <Value P="0.6" Name="Weak preference"/>
+    <Value P="0.3" Name="Medium preference"/>
+    <Value P="0.2" Name="Medium preference"/>
+    <Value P="0.1" Name="Strong preference"/>
+  </Trait>
+</TraitList>
